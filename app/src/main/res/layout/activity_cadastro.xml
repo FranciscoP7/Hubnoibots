@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fundo_tela">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margem_tela">
+        <TextView
+            android:id="@+id/txtTituloFormulario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_novo"
+            android:textColor="@color/laranja_principal"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/rotulo_titulo"
+            android:textColor="@color/texto_principal"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/texto_principal"
+            android:hint="@string/hint_titulo"
+            android:inputType="textCapSentences"
+            android:maxLines="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/rotulo_data"
+            android:textColor="@color/texto_principal"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_data"
+            android:textColor="@color/texto_principal"
+            android:inputType="date"
+            android:maxLength="10"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/rotulo_horario"
+            android:textColor="@color/texto_principal"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_horario"
+            android:textColor="@color/texto_principal"
+            android:inputType="time"
+            android:maxLength="5"
+            android:maxLines="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/rotulo_descricao"
+            android:textColor="@color/texto_principal"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:hint="@string/hint_descricao"
+            android:textColor="@color/texto_principal"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="3" />
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/laranja_secundario"
+            android:text="@string/acao_salvar"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/laranja_principal"
+            android:text="@string/acao_cancelar"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

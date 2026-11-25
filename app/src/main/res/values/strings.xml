@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">hubnoibots</string>
+    <string name="titulo_inicio">Agenda de Compromissos Equipe Technoibots</string>
+    <string name="subtitulo_inicio">Organize todos os compromissos da equipe em um só lugar</string>
+    <string name="descricao_imagem_agenda">Ilustração de um calendário</string>
+    <string name="botao_novo">Novo compromisso</string>
+    <string name="botao_ver_agenda">Ver minha agenda</string>
+    <string name="titulo_novo">Novo compromisso</string>
+    <string name="titulo_editar">Editar compromisso</string>
+    <string name="rotulo_titulo">Título</string>
+    <string name="rotulo_data">Data</string>
+    <string name="rotulo_horario">Horário</string>
+    <string name="rotulo_descricao">Descrição</string>
+    <string name="hint_titulo">Ex.: Reunião do projeto</string>
+    <string name="hint_data">dd/mm/aaaa</string>
+    <string name="hint_horario">hh:mm</string>
+    <string name="hint_descricao">Observações opcionais</string>
+    <string name="acao_salvar">Salvar</string>
+    <string name="acao_cancelar">Cancelar</string>
+    <string name="titulo_agenda">Minha agenda</string>
+    <string name="lista_vazia">Nenhum compromisso cadastrado.</string>
+    <string name="acao_editar">Editar</string>
+    <string name="acao_excluir">Excluir</string>
+    <string name="data_horario">%1$s às %2$s</string>
+    <string name="sem_descricao">Sem descrição</string>
+    <string name="erro_titulo">Informe o título</string>
+    <string name="erro_data">Use o formato dd/mm/aaaa</string>
+    <string name="erro_horario">Use um horário entre 00:00 e 23:59</string>
+    <string name="registro_nao_encontrado">Compromisso não encontrado</string>
+    <string name="mensagem_cadastrado">Compromisso cadastrado</string>
+    <string name="mensagem_atualizado">Compromisso atualizado</string>
+    <string name="mensagem_excluido">Compromisso excluído</string>
+    <string name="confirmar_exclusao">Excluir compromisso?</string>
+    <string name="texto_exclusao">Deseja excluir \"%1$s\"?</string>
+    <string name="sim_excluir">Excluir</string>
+    <string name="nao_cancelar">Cancelar</string>
+</resources>

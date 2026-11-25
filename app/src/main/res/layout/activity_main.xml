@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/fundo_tela">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/margem_tela">
+        <ImageView
+            android:id="@+id/imgAgenda"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/descricao_imagem_agenda"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/titulo_inicio"
+            android:textColor="@color/laranja_principal"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+
+            android:text="@string/subtitulo_inicio"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btnNovo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/laranja_secundario"
+            android:text="@string/botao_novo"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnVerAgenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/laranja_principal"
+            android:text="@string/botao_ver_agenda"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

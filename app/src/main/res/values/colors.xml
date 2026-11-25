@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="laranja_principal">#FB5B23</color>
+    <color name="laranja_secundario">#A42C00</color>
+    <color name="azul_claro">#D9EAF7</color>
+    <color name="fundo_tela">#121212</color>
+    <color name="texto_principal">#E5D6C2</color>
+    <color name="texto_secundario">#FEA701</color>
+    <color name="borda">#C9D5E2</color>
+    <color name="vermelho">#B3261E</color>
+</resources>
